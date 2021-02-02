@@ -42,5 +42,7 @@
 </script>
 
 <style scoped>
-
+  img.icon {
+    max-width: 50px;
+  }
 </style>
