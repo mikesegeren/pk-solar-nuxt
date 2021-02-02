@@ -1,0 +1,30 @@
+$green: #b1ca38;
+$blue: #012d76;
+
+$primary: $green;
+$secondary: $blue;
+
+$dark: #222;
+$light: #fff;
+
+// Links
+$link-color: darken($blue, 80%);
+$link-hover-color: lighten($link-color, 50%);
+$link-hover-decoration: none !default;
+
+// Cards
+$card-border-color: white !important;
+
+// Sizes
+$sizes: () !default;
+$sizes: map-merge(
+    (
+      25: 25%,
+      50: 50%,
+      60: 60%,
+      75: 75%,
+      100: 100%,
+      auto: auto
+    ),
+    $sizes
+);
