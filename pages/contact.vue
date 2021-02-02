@@ -11,13 +11,13 @@
         <div class="col-md-6">
           <div class="form-group">
             <label for="email">Emailadres:</label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
             <label for="name">Voor en achternaam:</label>
-            <input type="text" class="form-control" id="name" placeholder="Voor en achternaam">
+            <input type="text" class="form-control" name="Naam" id="name" placeholder="Voor en achternaam">
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
         <div class="col-md-12">
           <div class="form-group">
             <label for="message">Bericht</label>
-            <textarea placeholder="Bericht" class="form-control" id="message"></textarea>
+            <textarea placeholder="Bericht" class="form-control" name="Bericht" id="message"></textarea>
           </div>
         </div>
       </div>
