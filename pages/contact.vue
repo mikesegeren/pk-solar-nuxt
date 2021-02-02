@@ -6,7 +6,7 @@
       komt onze installateur bij u op bezoek om te kijken of er nog bijzonderheden zijn
     </p>
 
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" action="/success" data-netlify="true">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
@@ -16,8 +16,8 @@
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <label for="email">Voor en achternaam:</label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <label for="name">Voor en achternaam:</label>
+            <input type="text" class="form-control" id="name" placeholder="Voor en achternaam">
           </div>
         </div>
       </div>
