@@ -8,7 +8,7 @@
       @close="index = null">
     </CoolLightBox>
 
-    <h1 class="text-secondary mb-3">Foto's van dit project</h1>
+    <h3 class="text-secondary mb-3">Foto's van dit project</h3>
     <div class="row">
       <div class="col-md-4 col-sm-6 col-lg-3"
            v-for="(image, imageIndex) in project.images">
