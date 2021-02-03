@@ -1,7 +1,9 @@
 <template>
   <div class="nav-bar bg-light py-4">
     <div class="d-flex align-items-center justify-content-between container">
-      <img class="logo" src="images/logo.png" alt="">
+      <nuxt-link to="/">
+        <img class="logo" src="images/logo.png" alt="">
+      </nuxt-link>
       <div class="nav-items d-none d-md-block">
         <nuxt-link v-for="item in navItems" class="nav-item px-2" :to="item.route" :key="item.name"
                    active-class="active">
