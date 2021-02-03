@@ -7,7 +7,7 @@
     </p>
 
     <div class="row d-flex flex-wrap">
-      <div class="col-md-4 d-flex flex-column flex-grow-1">
+      <div class="col-md-4 d-flex flex-column flex-grow-1 mb-3">
         <div class="card d-flex flex-grow-1">
           <div class="card-body d-flex flex-column overflow-hidden">
             <div class="img-wrap">
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 d-flex flex-column flex-grow-1">
+      <div class="col-md-4 d-flex flex-column flex-grow-1 mb-3">
         <div class="card d-flex flex-grow-1">
           <div class="card-body d-flex flex-column">
             <div class="img-wrap">
@@ -41,10 +41,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 d-flex flex-column flex-grow-1">
+      <div class="col-md-4 d-flex flex-column flex-grow-1 mb-3">
         <div class="card d-flex flex-grow-1">
           <div class="card-body d-flex flex-column">
-            <div class="img-wrap">
+            <div class="img-wrap text-center overflow-hidden">
               <img src="images/home-article-3.png" alt="">
             </div>
             <h2 class="text-secondary mt-3">Contact</h2>
@@ -70,6 +70,7 @@
   .card {
     .img-wrap {
       height: 200px;
+      text-align: center;
     }
 
     img {
