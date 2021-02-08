@@ -1,4 +1,3 @@
 export const config = {
-  api: 'https://api.pk-solarpower.eu/wp-json/wp/v2'
-
+  api: 'http://pstoopcms.local/wp-json/wp/v2'
 };
