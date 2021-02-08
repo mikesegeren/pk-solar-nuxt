@@ -13,8 +13,7 @@
             <div class="img-wrap">
               <img src="images/home-article-1.png" alt="">
             </div>
-            <h2 class="text-secondary mt-3">Wie wij zijn</h2>
-            <h4>Wat doen wij voor u?</h4>
+            <h2 class="text-secondary mt-3">Wat doen wij voor u?</h2>
             <ul>
               <li>Vrijblijvende offerte</li>
               <li>Waar nodig ook een constructie berekening van uw dak</li>
@@ -66,7 +65,10 @@
   export default Vue.extend({})
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+  @import "styles/variables";
+  @import "node_modules/bootstrap/scss/mixins";
+
   .card {
     .img-wrap {
       height: 200px;
@@ -75,6 +77,12 @@
 
     img {
       max-width: 100%;
+    }
+
+    p, ul {
+      @include media-breakpoint-up(lg) {
+        min-height: 200px;
+      }
     }
   }
 </style>

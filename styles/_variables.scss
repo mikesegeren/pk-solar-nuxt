@@ -7,6 +7,7 @@ $secondary: $blue;
 $dark: #222;
 $light: #fff;
 
+
 // Links
 $link-color: darken($blue, 80%);
 $link-hover-color: lighten($link-color, 50%);
@@ -28,3 +29,11 @@ $sizes: map-merge(
     ),
     $sizes
 );
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+)
