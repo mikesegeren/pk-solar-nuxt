@@ -2,10 +2,10 @@
   <div class="nav-bar bg-light py-4">
     <div class="d-flex align-items-center justify-content-between container">
       <nuxt-link to="/">
-        <img class="logo" src="images/logo.png" alt="">
+        <img class="logo" src="/images/logo.png" alt="">
       </nuxt-link>
       <div class="nav-items d-none d-md-block">
-        <nuxt-link v-for="item in navItems" class="nav-item px-2" :to="item.route" :key="item.name"
+        <nuxt-link v-for="item in navItems" class="nav-item px-2" :class="[item.name]" :to="item.route" :key="item.name"
                    active-class="active">
           {{ item.name }}
         </nuxt-link>
@@ -15,7 +15,8 @@
            class="mobile-menu-trigger d-block d-md-none"></div>
       <div v-if="showMenu" class="mobile-menu bg-light px-3 w-50">
         <div @click="toggleMenu()" class="d-flex flex-column">
-          <nuxt-link v-for="item in navItems" class="nav-item px-2 border-bottom py-2" :to="item.route" :key="item.name"
+          <nuxt-link v-for="item in navItems" class="nav-item px-2 border-bottom py-2" :class="[item.name]"
+                     :to="item.route" :key="item.name"
                      active-class="active">
             {{ item.name }}
           </nuxt-link>
@@ -88,6 +89,13 @@
     &.nuxt-link-exact-active {
       font-weight: 700;
       color: $primary;
+    }
+
+    &.active {
+      &.projecten {
+        font-weight: 700;
+        color: $primary;
+      }
     }
   }
 

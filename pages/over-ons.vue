@@ -2,8 +2,8 @@
   <div class="container">
     <Article
       title="Over ons"
-      :paragraphs="[
-        `Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Wat doen wij voor u:`,
+      :paragraphs="[`Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Wat doen wij voor u:`,]"
+      :bullets="[
         `Vrijblijvende offerte`,
         `Waar nodig ook een constructie berekening van uw dak`,
         `Reëel terug verdien schema’s uitgewerkt overzichtelijk aangeleverd`,
@@ -20,6 +20,7 @@
       ]"
       image="home/2.jpg"
       :reverse="true"
+      :is-h1="true"
     ></Article>
   </div>
 </template>

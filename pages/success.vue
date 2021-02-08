@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <h1 class="text-secondary mb-3 font-weight-bold">Gelukt!</h1>
     <p class="my-4">
       Je bericht is bij ons aangekomen. Wij zorgen er voor dat er zo snel mogelijk contact met u opgenomen wordt.

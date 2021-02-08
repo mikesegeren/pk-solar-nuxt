@@ -3,7 +3,7 @@
     <section class="page-footer bg-primary py-5 mt-4">
       <div class="container d-flex justify-content-lg-between justify-content-center">
         <div>
-          <img style="max-width: 250px;" src="images/logo-white.png" alt="">
+          <img style="max-width: 250px;" src="/images/logo-white.png" alt="">
         </div>
         <div style="max-width: 33%" class="mx-4 d-none d-lg-block">
           <p class="text-light">

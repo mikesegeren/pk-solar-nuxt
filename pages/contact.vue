@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <h1 class="text-secondary mb-3 font-weight-bold">Contact</h1>
     <p class="my-4">
       Aan de hand van de onderstaande gegevens kunnen wij u een offerte aanbieden. Als u aangeeft interesse te hebben
