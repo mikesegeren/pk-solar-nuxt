@@ -11,7 +11,7 @@
           <div :style="{backgroundImage: getBackgroundImage(project)}" class="img"></div>
           <div class="card-body">
             <h5 class="card-title">{{project.title}}</h5>
-            <p class="card-text">{{getShortDescription(project.description)}}</p>
+            <div class="card-text my-3" v-html="getShortDescription(project.description)"></div>
             <nuxt-link :to="project.slug" class="btn btn-outline-secondary w-100">Meer informatie</nuxt-link>
           </div>
         </div>
@@ -21,20 +21,36 @@
 </template>
 
 <script>
-  import { projects } from '~/exports/projects'
+  import { config } from '~/exports/config'
 
   export default {
     name: 'projecten',
-    data: function() {
+    data() {
       return {
-        projects: projects
+        projects: []
       }
+    },
+    async fetch() {
+      this.projects = await fetch(`${config.api}/projects`)
+        .then(res => res.json())
+        .then(res => res.map(project => {
+          return {
+            slug: project.slug,
+            title: project.acf.title,
+            description: project.acf.description,
+            images: project.acf.images,
+            thumbnail: project.acf.thumbnail,
+            type: project.acf.type
+          }
+        }))
+        .then(res => res.filter(project => project.type !== 'pksolar'))
     },
     methods: {
       getBackgroundImage(project) {
-        return `url('/images/projects/${project.slug}/thumbnail.jpg')`
+        return `url('${project.thumbnail}')`
       },
       getShortDescription(description) {
+        description = description.replaceAll('<p>', '').replaceAll('</p>', '')
         return `${description.slice(0, 50)}...`
       }
     }
@@ -51,6 +67,10 @@
       height: 190px;
       background-size: cover;
       background-position: center;
+    }
+
+    .card-text {
+      min-height: 48px;
     }
   }
 </style>

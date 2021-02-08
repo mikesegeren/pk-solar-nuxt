@@ -1,22 +1,22 @@
 <template>
-  <div>
+  <div v-if="project">
     <h1 class="text-secondary mb-3 font-weight-bold">{{project.title}}</h1>
-    <p class="my-4">{{project.description}}</p>
+    <div class="my-4" v-html="project.description"></div>
     <CoolLightBox
-      :items="imagesToArray()"
+      :items="project.images"
       :index="index"
       @close="index = null">
     </CoolLightBox>
 
     <h3 class="text-secondary mb-3">Foto's van dit project</h3>
     <div class="row">
-      <div class="col-md-4 col-sm-6 col-lg-3"
+      <div class="col-md-4 col-sm-6 col-lg-3 mb-3"
            v-for="(image, imageIndex) in project.images">
         <div
           class="image"
           :key="imageIndex"
           @click="index = imageIndex"
-          :style="{backgroundImage: `url('/images/projects/${$route.params.project}/${image}')`}"
+          :style="{backgroundImage: `url('${image}')`}"
         ></div>
       </div>
     </div>
@@ -27,6 +27,7 @@
   import CoolLightBox from 'vue-cool-lightbox'
   import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
   import { projects } from '~/exports/projects'
+  import { config } from '~/exports/config'
 
   export default {
     name: '_project',
@@ -36,15 +37,30 @@
     data: function() {
       return {
         index: null,
-        project: projects.find(project => {
-          return project.slug === this.$route.params.project
-        })
+        project: {}
       }
     },
+    async fetch() {
+      this.project = await fetch(`${config.api}/projects?slug=${this.$route.params.project}`)
+        .then(res => res.json())
+        .then(res => res.map(project => {
+          return {
+            slug: project.slug,
+            title: project.acf.title,
+            description: project.acf.description,
+            images: project.acf.images.map(img => this.srcString(img.medium_srcset)),
+            thumbnail: project.acf.thumbnail,
+            type: project.acf.type
+          }
+        }))
+        .then(res => res.filter(project => project.type === 'pk-solar'))
+        .then(res => res[0])
+    },
     methods: {
-      imagesToArray() {
-        const project = projects.find(project => project.slug === this.$route.params.project)
-        return project.images.map(img => `/images/projects/${this.$route.params.project}/${img}`)
+      srcString(string) {
+        const arr = string.split(',')
+        const url = arr[1].slice(0, -6)
+        return url
       }
     }
   }

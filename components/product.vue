@@ -1,8 +1,8 @@
 <template>
   <div class="bg-light p-3 text-center rounded">
-    <img :src="getBackgroundImage()" alt="">
+    <img :src="image" alt="">
     <h4 class="text-secondary font-weight-bold mt-2">{{title}}</h4>
-    <a :href="getDownloadUrl()" target="_blank" class="btn btn-outline-secondary w-100 mt-2">Meer info</a>
+    <a :href="download" target="_blank" class="btn btn-outline-secondary w-100 mt-2">Meer info</a>
   </div>
 </template>
 
@@ -13,14 +13,6 @@
       title: String,
       download: String,
       image: String
-    },
-    methods: {
-      getDownloadUrl() {
-        return `/images/products/downloads/${this.download}`
-      },
-      getBackgroundImage() {
-        return `images/products/${this.image}`
-      }
     }
   }
 </script>
