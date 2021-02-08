@@ -6,7 +6,7 @@
       komt onze installateur bij u op bezoek om te kijken of er nog bijzonderheden zijn
     </p>
 
-    <form action="/success" netlify data-netlify="true" name="contact" method="POST">
+    <form action="/success" netlify data-netlify="true" name="contact" id="contact" method="post">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <button class="btn btn-secondary w-100 btn-lg" type="submit">Verstuur</button>
+      <button type="submit" value="Submit" form="contact" class="btn btn-secondary w-100 btn-lg">Verstuur</button>
     </form>
 
     <div class="row mt-3">
