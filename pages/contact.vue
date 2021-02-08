@@ -6,7 +6,7 @@
       komt onze installateur bij u op bezoek om te kijken of er nog bijzonderheden zijn
     </p>
 
-    <form netlify data-netlify="true" name="contact" method="POST" action="/pages/success">
+    <form action="/success" netlify data-netlify="true" name="contact" method="POST">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
