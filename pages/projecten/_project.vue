@@ -52,22 +52,15 @@
         .then(res => res.map(project => {
           return {
             slug: project.slug,
-            title: project.acf.title,
-            description: project.acf.description,
-            images: project.acf.images.map(img => this.srcString(img.medium_srcset)),
-            thumbnail: project.acf.thumbnail,
-            type: project.acf.type
+            title: project.api.title,
+            description: project.api.description,
+            images: project.api.images.map(img => img.sizes.large),
+            thumbnail: project.api.thumbnail.sizes.medium,
+            type: project.api.type
           }
         }))
         .then(res => res.filter(project => project.type === 'pk-solar'))
         .then(res => res[0])
-    },
-    methods: {
-      srcString(string) {
-        const arr = string.split(',')
-        const url = arr[1].slice(0, -6)
-        return url
-      }
     }
   }
 </script>

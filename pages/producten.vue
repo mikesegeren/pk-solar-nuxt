@@ -40,12 +40,12 @@
     async fetch() {
       this.panels = await fetch(`${config.api}/products`)
         .then(res => res.json())
-        .then(res => res.map(product => product.acf))
+        .then(res => res.map(product => product.api))
         .then(res => res.filter(product => product.type === 'panel'))
 
       this.transformers = await fetch(`${config.api}/products`)
         .then(res => res.json())
-        .then(res => res.map(product => product.acf))
+        .then(res => res.map(product => product.api))
         .then(res => res.filter(product => product.type === 'transformer'))
     },
     data: function() {

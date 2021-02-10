@@ -43,14 +43,14 @@
         .then(res => res.map(project => {
           return {
             slug: project.slug,
-            title: project.acf.title,
-            description: project.acf.description,
-            images: project.acf.images,
-            thumbnail: project.acf.thumbnail,
-            type: project.acf.type
+            title: project.api.title,
+            description: project.api.description,
+            images: project.api.images,
+            thumbnail: project.api.thumbnail.sizes.medium,
+            type: project.api.type
           }
         }))
-        .then(res => res.filter(project => project.type !== 'pksolar'))
+        .then(res => res.filter(project => project.type === 'pk-solar'))
     },
     methods: {
       getBackgroundImage(project) {
