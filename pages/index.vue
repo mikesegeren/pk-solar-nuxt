@@ -18,7 +18,7 @@
               <li>Vrijblijvende offerte</li>
               <li>Waar nodig ook een constructie berekening van uw dak</li>
               <li>Reëel terug verdien schema’s uitgewerkt overzichtelijk aangeleverd</li>
-              <li>Terug verdientijd tussen de 2 a 8 jaar</li>
+              <li>Terug verdientijd tussen de 5 a 8 jaar</li>
             </ul>
             <nuxt-link to="/over-ons" class="btn btn-lg btn-outline-primary w-100 align-self-end">Lees meer</nuxt-link>
           </div>
@@ -48,8 +48,7 @@
             </div>
             <h2 class="text-secondary mt-3 mt-lg-5">Contact</h2>
             <p>
-              Neem hier contact met ons op, of laat ons contact met jou opnemen. Stuur ons een bericht of laat je
-              email/telefoonnummer achter.
+              Neem hier contact met ons op, of laat ons contact met jou opnemen. Stuur ons een email.
             </p>
             <nuxt-link to="/contact" class="btn btn-lg btn-outline-primary w-100 align-self-end">Lees meer</nuxt-link>
           </div>

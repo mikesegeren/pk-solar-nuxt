@@ -7,7 +7,8 @@
         `Vrijblijvende offerte`,
         `Waar nodig ook een constructie berekening van uw dak`,
         `Reëel terug verdien schema’s uitgewerkt overzichtelijk aangeleverd`,
-        `Terug verdientijd tussen de 2 a 8 jaar`,
+        `Onze monteurs komen uw PV installatie op maat in meten voordat u de definitieve opdracht verstrekt`,
+        `Terug verdientijd tussen de 5 a 8 jaar`,
       ]"
       image="home/1.jpg"
     ></Article>

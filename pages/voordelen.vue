@@ -14,8 +14,7 @@
       `Door te kiezen voor zonnepanelen zult u enorm besparen op uw energiekosten en ook draagt u bij aan een schoner
       milieu. Zodra uw zonnepaneel systeem actief is en kilowatturen (kWh) opwekt, hoeft u deze energie niet meer in te kopen bij uw gewone
       energieleverancier. Hierdoor gaat u maandelijks besparen op uw energierekening. Nadat u de investering heeft terug
-      verdiend zult u daarna profiteren van gratis stroom. De terugverdien tijd ligt voor de particulieren tussen de 8 a
-      10 jaar.`
+      verdiend zult u daarna profiteren van gratis stroom. De terugverdien tijd ligt voor de particulieren tussen de 5 a 8 jaar.`
       ]"
       :reverse="true"
       image="advantages/2.jpg"
