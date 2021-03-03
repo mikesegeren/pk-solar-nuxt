@@ -69,6 +69,9 @@
 
   export default {
     name: 'contact',
+    head: {
+      title: 'Neem contact met ons op | PK solarpower',
+    },
     components: { FormControl }
   }
 </script>

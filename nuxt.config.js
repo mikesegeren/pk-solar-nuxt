@@ -1,17 +1,25 @@
+import { createSEOMeta } from './exports/seo'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'pk-solar',
+    title: 'PK solarpower | Made',
+    htmlAttrs: {
+      lang: 'nl'
+    },
     meta: [
+      ...createSEOMeta({
+        title: 'Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Bekijk hier ons assortiment, leer over de voordelen van onze panelen en neem contact met ons op!',
+        description: 'PK solarpower maakt alleen gebruik van de kwalitatief hoogwaardige zonnepanelen met een lage warmte coëfficiënt en plus tolerantie. Ook monteren en plaatsen wij de gehele installatie van het dak tot aan de meterkast.',
+        image: '/imageLarge.jpg'
+      }),
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 

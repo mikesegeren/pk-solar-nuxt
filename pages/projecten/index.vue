@@ -32,6 +32,9 @@
 
   export default {
     name: 'projecten',
+    head: {
+      title: 'Bekijk onze projecten | PK solarpower',
+    },
     data() {
       return {
         projects: []

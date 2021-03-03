@@ -34,6 +34,9 @@
 
   export default {
     name: 'producten',
+    head: {
+      title: 'Bekijk onze producten | PK solarpower',
+    },
     components: {
       product
     },
