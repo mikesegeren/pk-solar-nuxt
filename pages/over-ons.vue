@@ -20,6 +20,9 @@
         en plus tolerantie. Ook monteren en plaatsen wij de gehele installatie van het dak tot aan de meterkast.</p>
       <p>Ook heeft PK-solarpower scherpe prijzen voor de particulieren. Dus mocht u interesse hebben in zonne- energie
         neem contact op met Patrick Stoop.</p>
+      <p>Daarnaast maakt PK-solarpower alleen gebruik van de beste leveranciers en partners. Bent u geinteresseerd om
+        nog meer energie te besparen? Bekijk dan hieronder de folder van Isolatie Techniek Brabant</p>
+      <a target="_blank" class="btn btn-primary" href="/Folder-ITB-2021-V1.pdf">Bekijk de folder</a>
     </Article>
   </div>
 </template>
