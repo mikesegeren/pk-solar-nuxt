@@ -4,14 +4,10 @@
       title="Over ons"
       image="home/1.jpg"
     >
-      <p>Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Wat doen wij voor u:</p>
-      <ul>
-        <li>Vrijblijvende offerte</li>
-        <li>Waar nodig ook een constructie berekening van uw dak</li>
-        <li>Reëel terug verdien schema’s uitgewerkt overzichtelijk aangeleverd</li>
-        <li>Onze monteurs komen uw PV installatie op maat in meten voordat u de definitieve opdracht verstrekt</li>
-        <li>Terug verdientijd tussen de 5 a 8 jaar</li>
-      </ul>
+      <p>Kwaliteit, transparantie en vakmanschap zijn in het hele traject leidend. Vanaf het eerste contact waar de
+        opties besproken worden tot aan de daadwerkelijke montage en plaatsing van de volledige installatie (van het dak
+        tot aan de meterkast). Grote kracht van PK-solarpower is verder het voortdurend denken in mogelijkheden. ‘Nee’
+        of ‘kan niet’ zult u hier zelden horen.</p>
     </Article>
 
     <Article

@@ -2,6 +2,15 @@
   <div class="container">
     <h1 class="text-secondary mb-3 font-weight-bold">Contact</h1>
     <p class="my-4">
+      Bent u geïnteresseerd in zonne-energie? Neem dan vandaag nog contact met ons op. Wij garanderen u:
+    </p>
+    <ul>
+      <li>Vrijblijvende offerte</li>
+      <li>Waar nodig ook een constructieberekening van uw dak</li>
+      <li>Reële terugverdienschema’s; uitgewerkt en overzichtelijk aangeleverd</li>
+      <li>Terugverdientijd tussen de 2 à 8 jaar</li>
+    </ul>
+    <p class="my-4">
       Aan de hand van de onderstaande gegevens kunnen wij u een offerte aanbieden. Als u de offerte goedkeurt komt de
       monteur welke het systeem gaat installeren, ten alle tijden bij u langs om te kijken.
     </p>

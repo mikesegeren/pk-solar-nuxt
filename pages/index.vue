@@ -2,6 +2,11 @@
   <div class="container">
     <h1 class="text-secondary mb-3 font-weight-bold">Welkom bij PK-solarpower</h1>
     <p class="my-4">
+      Zonnepanelen zijn populairder dan ooit tevoren. Niet verwonderlijk overigens gezien de zichtbare win-winsituatie.
+      Zo staan zij garant voor een aanzienlijke besparing op de energiekosten, wat fijn is voor de eigen portemonnee
+      terwijl u tegelijkertijd ook nog eens een positieve bijdrage levert aan een schoner milieu.
+    </p>
+    <p class="my-4">
       Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Bekijk hier ons assortiment, leer over de
       voordelen van onze panelen en neem contact met ons op!
     </p>
@@ -36,7 +41,9 @@
               en ook draagt u bij aan een schoner milieu. Voor veel mensen is dit een belangrijke overweging om te
               investeren in zonnepanelen.
             </p>
-            <nuxt-link to="/voordelen" class="btn btn-lg btn-outline-primary w-100 align-self-end align-content-end">Lees meer</nuxt-link>
+            <nuxt-link to="/voordelen" class="btn btn-lg btn-outline-primary w-100 align-self-end align-content-end">
+              Lees meer
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -59,29 +66,29 @@
 </template>
 
 <script lang="ts">
-  import Vue from 'vue'
+import Vue from 'vue'
 
-  export default Vue.extend({})
+export default Vue.extend({})
 </script>
 
 <style lang="scss" scoped>
-  @import "styles/variables";
-  @import "node_modules/bootstrap/scss/mixins";
+@import "styles/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
-  .card {
-    .img-wrap {
-      height: 200px;
-      text-align: center;
-    }
+.card {
+  .img-wrap {
+    height: 200px;
+    text-align: center;
+  }
 
-    img {
-      max-width: 100%;
-    }
+  img {
+    max-width: 100%;
+  }
 
-    p, ul {
-      @include media-breakpoint-up(lg) {
-        min-height: 200px;
-      }
+  p, ul {
+    @include media-breakpoint-up(lg) {
+      min-height: 200px;
     }
   }
+}
 </style>
