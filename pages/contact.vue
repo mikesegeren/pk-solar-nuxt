@@ -2,8 +2,8 @@
   <div class="container">
     <h1 class="text-secondary mb-3 font-weight-bold">Contact</h1>
     <p class="my-4">
-      Aan de hand van de onderstaande gegevens kunnen wij u een offerte aanbieden. Als u aangeeft interesse te hebben
-      komt onze installateur bij u op bezoek om te kijken of er nog bijzonderheden zijn
+      Aan de hand van de onderstaande gegevens kunnen wij u een offerte aanbieden. Als u de offerte goedkeurt komt de
+      monteur welke het systeem gaat installeren, ten alle tijden bij u langs om te kijken.
     </p>
 
     <form action="/success" netlify data-netlify="true" name="contact" id="contact" method="post">
@@ -65,24 +65,24 @@
 </template>
 
 <script>
-  import FormControl from '~/components/form-control'
+import FormControl from '~/components/form-control'
 
-  export default {
-    name: 'contact',
-    head: {
-      title: 'Neem contact met ons op | PK solarpower',
-    },
-    components: { FormControl }
-  }
+export default {
+  name: 'contact',
+  head: {
+    title: 'Neem contact met ons op | PK solarpower'
+  },
+  components: { FormControl }
+}
 </script>
 
 <style lang="scss" scoped>
-  img.icon {
-    max-width: 50px;
-  }
+img.icon {
+  max-width: 50px;
+}
 
-  textarea {
-    resize: none;
-    height: 200px;
-  }
+textarea {
+  resize: none;
+  height: 200px;
+}
 </style>
