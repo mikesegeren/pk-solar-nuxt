@@ -7,7 +7,7 @@
       terwijl u tegelijkertijd ook nog eens een positieve bijdrage levert aan een schoner milieu.
     </p>
     <p class="my-4">
-      Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Bekijk hier ons assortiment, leer over de
+      Wij zijn sinds 2010 actief in de zonnepanelen. Bekijk hier ons assortiment, lees over de
       voordelen van onze panelen en neem contact met ons op!
     </p>
 
@@ -21,9 +21,9 @@
             <h2 class="text-secondary mt-3 mt-lg-5">Wat doen wij?</h2>
             <ul>
               <li>Vrijblijvende offerte</li>
-              <li>Waar nodig ook een constructie berekening van uw dak</li>
-              <li>Reëel terug verdien schema’s uitgewerkt overzichtelijk aangeleverd</li>
-              <li>Terug verdientijd tussen de 5 a 8 jaar</li>
+              <li>Waar nodig ook een constructieberekening van uw dak</li>
+              <li>Reële terugverdienschema’s uitgewerkt, overzichtelijk aangeleverd</li>
+              <li>Terugverdientijd tussen de 5 en 8 jaar</li>
             </ul>
             <nuxt-link to="/over-ons" class="btn btn-lg btn-outline-primary w-100 align-self-end">Lees meer</nuxt-link>
           </div>
@@ -37,8 +37,8 @@
             </div>
             <h2 class="text-secondary mt-3 mt-lg-5">Voordelen</h2>
             <p>
-              De voordelen van zonnepanelen Door te kiezen voor zonnepanelen zult u enorm besparen op uw energiekosten
-              en ook draagt u bij aan een schoner milieu. Voor veel mensen is dit een belangrijke overweging om te
+              Door te kiezen voor zonnepanelen zult u enorm besparen op uw energiekosten. Ook draagt u bij aan een
+              schoner milieu. Voor veel mensen is dit een belangrijke overweging om te
               investeren in zonnepanelen.
             </p>
             <nuxt-link to="/voordelen" class="btn btn-lg btn-outline-primary w-100 align-self-end align-content-end">
@@ -55,7 +55,7 @@
             </div>
             <h2 class="text-secondary mt-3 mt-lg-5">Contact</h2>
             <p>
-              Neem hier contact met ons op, of laat ons contact met jou opnemen. Stuur ons een email.
+              Neem hier contact met ons op, of laat ons contact met u opnemen. Stuur ons een e-mail.
             </p>
             <nuxt-link to="/contact" class="btn btn-lg btn-outline-primary w-100 align-self-end">Lees meer</nuxt-link>
           </div>

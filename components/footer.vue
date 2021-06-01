@@ -7,8 +7,7 @@
         </div>
         <div style="max-width: 33%" class="mx-4 d-none d-lg-block">
           <p class="text-light">
-            Wij zijn sinds 2010 actief in de zonnepanelen als PK-solarpower bv. Bekijk hier ons assortiment, leer over
-            de
+            Wij zijn sinds 2010 actief in de zonnepanelen. Bekijk hier ons assortiment, lees over de
             voordelen van onze panelen en neem contact met ons op!
           </p>
         </div>

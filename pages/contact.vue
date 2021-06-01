@@ -8,25 +8,25 @@
       <li>Vrijblijvende offerte</li>
       <li>Waar nodig ook een constructieberekening van uw dak</li>
       <li>Reële terugverdienschema’s; uitgewerkt en overzichtelijk aangeleverd</li>
-      <li>Terugverdientijd tussen de 2 à 8 jaar</li>
+      <li>Terugverdientijd tussen de 2 en 8 jaar</li>
     </ul>
     <p class="my-4">
-      Aan de hand van de onderstaande gegevens kunnen wij u een offerte aanbieden. Als u de offerte goedkeurt komt de
-      monteur welke het systeem gaat installeren, ten alle tijden bij u langs om te kijken.
+      Aan de hand van onderstaande gegevens kunnen wij u een offerte aanbieden. Wanneer u die goedkeurt, komt de monteur
+      – die het systeem gaat installeren – altijd bij u langs om te kijken.
     </p>
 
     <form action="/success" netlify data-netlify="true" name="contact" id="contact" method="post">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <label for="email">Emailadres:</label>
-            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+            <label for="email">E-mailadres:</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="E-mailadres">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <label for="name">Voor en achternaam:</label>
-            <input type="text" class="form-control" name="Naam" id="name" placeholder="Voor en achternaam">
+            <label for="name">Voor- en achternaam:</label>
+            <input type="text" class="form-control" name="Naam" id="name" placeholder="Voor- en achternaam">
           </div>
         </div>
       </div>

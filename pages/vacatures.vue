@@ -5,7 +5,7 @@
       image="home/2.jpg"
       :is-h1="true"
     >
-      <p>Ben je geinteresseerd om ons snelgroeiende bedrijf PK solarpower als ZZP'er / part-timer te ondersteunen?</p>
+      <p>Ben je geïnteresseerd om ons snelgroeiende bedrijf als zzp’er/parttimer te ondersteunen?</p>
       <p>Dit hebben wij jou te bieden</p>
       <ul>
         <li>Leuke collega's</li>

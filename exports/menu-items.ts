@@ -3,7 +3,7 @@ export const navItems = [
     name: 'home',
     route: '/'
   }, {
-    name: 'over-ons',
+    name: 'over ons',
     route: '/over-ons'
   }, {
     name: 'voordelen',
